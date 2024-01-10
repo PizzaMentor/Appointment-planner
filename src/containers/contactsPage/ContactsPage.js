@@ -51,7 +51,7 @@ export const ContactsPage = ({ contacts, addContact }) => {
       setEmail={setEmail}
       handleSubmit={handleSubmit}
       />
-
+      
       </section>
       <hr />
       <section>
