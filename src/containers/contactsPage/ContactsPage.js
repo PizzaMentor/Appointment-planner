@@ -52,14 +52,11 @@ export const ContactsPage = ({ contacts, addContact }) => {
       handleSubmit={handleSubmit}
       />
 
-
-
-
-
       </section>
       <hr />
       <section>
         <h2>Contacts</h2>
+        <TileList tiles={contacts} />
       </section>
     </>
   );
